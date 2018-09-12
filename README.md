@@ -1,6 +1,6 @@
 # Convert string from greek to greeklish
 
-### greek_To_Greeklish.jar
+### greekToGreeklish.jar
 
 Use convertGreekToGreeklish function for simple converting
 
