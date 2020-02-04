@@ -1,5 +1,11 @@
 # Convert string from greek to greeklish
 
+A simple java class in order to convert a post title to seo friendly url.
+
+The convert method of GreekToSeoFriendlyUrl class takes as an input a string and returns a string making the necessaries transformations.
+
+### Examples
+
 GreekToSeoFriendlyUrl.convert("Τουρκικό υπουργείο Αμυνας: Εφτασαν στην Αγκυρα τα πρώτα τμήματα των S-400")<br/>
 Result : toyrkiko-ypoyrgeio-amynas-eftasan-stin-agkyra-ta-prwta-tmimata-twn-s-400<br/>
 
