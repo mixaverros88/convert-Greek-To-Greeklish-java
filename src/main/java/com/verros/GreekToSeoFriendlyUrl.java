@@ -1,3 +1,5 @@
+package com.verros;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,7 +9,7 @@ public class GreekToSeoFriendlyUrl {
 
         String greeklish = name.toLowerCase();
         StringBuilder sb = new StringBuilder();
-        Map<String, String> values = new HashMap<>();
+        Map<String, String> values = new HashMap<String, String>();
 
         values.put("α", "a");
         values.put("ά", "a");
@@ -44,7 +46,7 @@ public class GreekToSeoFriendlyUrl {
         values.put("ώ", "w");
         values.put(" ", "-");
         values.put("!", "");
-        values.put(".", "");
+        values.put("", "");
         values.put("@", "");
         values.put("#", "");
         values.put("$", "");
@@ -73,6 +75,7 @@ public class GreekToSeoFriendlyUrl {
         values.put("<", "");
         values.put("`", "");
         values.put("^", "");
+        values.put(".", "");
         values.put("``", "");
         values.put("~", "");
         values.put("«", "");
