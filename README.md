@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/mixaverros88/convertGreekToGreeklish_java_jar.svg?branch=master)](https://travis-ci.com/mixaverros88/convertGreekToGreeklish_java_jar)
 # Convert string from greek to greeklish
 
 A simple java class in order to convert a post title to seo friendly url.
