@@ -1,4 +1,10 @@
-[![Build Status](https://travis-ci.com/mixaverros88/convertGreekToGreeklish_java_jar.svg?branch=master)](https://travis-ci.com/mixaverros88/convertGreekToGreeklish_java_jar)
+[![Build Status](https://travis-ci.com/mixaverros88/convert-Greek-To-Greeklish-java.svg?branch=master)](https://travis-ci.com/mixaverros88/convert-Greek-To-Greeklish-java)
+![preview image](https://img.shields.io/github/followers/mixaverros88?label=Follow&style=plastic)
+![preview image](https://img.shields.io/github/forks/mixaverros88/convert-Greek-To-Greeklish-java?style=plastic)
+![preview image](https://img.shields.io/github/stars/mixaverros88/convert-Greek-To-Greeklish-java?style=plastic)
+![preview image](https://img.shields.io/github/watchers/mixaverros88/convert-Greek-To-Greeklish-java?style=plastic)
+[![Known Vulnerabilities](https://snyk.io/test/github/mixaverros88/convert-Greek-To-Greeklish-java/badge.svg?targetFile=pom.xml)](https://snyk.io/test/github/mixaverros88/convert-Greek-To-Greeklish-java?targetFile=pom.xml)
+
 # Convert string from greek to greeklish
 
 A simple java class in order to convert a post title to seo friendly url.
