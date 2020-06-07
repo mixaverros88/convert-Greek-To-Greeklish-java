@@ -16,4 +16,26 @@
             </properties>
         </profile>
     </profiles>
+         
+    <properties>
+        <maven.help.plugin>3.1.0</maven.help.plugin>
+    </properties>
+         
+    <build>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-help-plugin</artifactId>
+                <version>${maven.help.plugin}</version>
+                <executions>
+                    <execution>
+                        <id>show-profiles</id>
+                        <phase>compile</phase>
+                        <goals>
+                            <goal>active-profiles</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
