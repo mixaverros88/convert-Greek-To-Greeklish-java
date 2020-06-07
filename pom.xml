@@ -16,4 +16,18 @@
             </properties>
         </profile>
     </profiles>
+
+    <properties>
+        <junit>4.12</junit>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
 </project>
