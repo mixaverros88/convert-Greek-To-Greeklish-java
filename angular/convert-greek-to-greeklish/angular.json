@@ -15,6 +15,7 @@
           "options": {
             "outputPath": "dist/convert-greek-to-greeklish",
             "index": "src/index.html",
+            "deployUrl": "/convert-greek-to-greeklish/convert-greek-to-greeklish/",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
@@ -24,9 +25,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "convert-greek-to-greeklish"
+    }
+  },
+  "defaultProject": "convert-greek-to-greeklish",
+  "cli": {
+    "analytics": "60e77f15-cada-475d-9942-e9d66eba9eb6"
+  }
 }
