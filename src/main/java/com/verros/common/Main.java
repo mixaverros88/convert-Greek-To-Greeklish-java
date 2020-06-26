@@ -1,4 +1,4 @@
-package com.verros;
+package com.verros.common;
 
 public class Main {
 

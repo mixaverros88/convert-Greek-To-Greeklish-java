@@ -1,5 +1,6 @@
 package com.verros;
 
+import com.verros.common.GreekToSeoFriendlyUrl;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
